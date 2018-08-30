@@ -3,9 +3,7 @@
  * Expose `Emitter`.
  */
 
-if (typeof module !== 'undefined') {
-  module.exports = Emitter;
-}
+export default Emitter;
 
 /**
  * Initialize a new `Emitter`.
